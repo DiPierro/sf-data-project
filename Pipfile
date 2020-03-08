@@ -12,6 +12,5 @@ matplotlib = "*"
 altair = "*"
 vega-datasets = "*"
 geopandas = "*"
-gpdvega = "*"
 descartes = "*"
-
+vega = "*"

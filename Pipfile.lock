@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "51c1e4feb593d82da1cadd9bb12aa3f834092c712c24d01efca10d35d051bb75"
+            "sha256": "3db79953a7df4c400cccfbb5e782437f7c391cc07e8319fcd53b42e5c7848dd0"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -27,7 +27,7 @@
                 "sha256:5b26757dc6f79a3b7dc9fab95359328d5747fcb2409d331ea66d0272b90ab2a0",
                 "sha256:8b995ffe925347a2138d7ac0fe77155e4311a0ea6d6da4f5128fe4b3cbe5ed71"
             ],
-            "markers": "platform_system == 'Darwin'",
+            "markers": "sys_platform == 'darwin'",
             "version": "==0.1.0"
         },
         "attrs": {
@@ -149,14 +149,6 @@
             "index": "pypi",
             "version": "==3.1.0"
         },
-        "gpdvega": {
-            "hashes": [
-                "sha256:b0ce3cc02494f58d5061133578392242cb3bda0a5fe9d81c76b9a8b5de9dd460",
-                "sha256:ef13c5eaaa60072890893e1ab7bbfeeec09bec8b498f21fcdc7e44168260a4a3"
-            ],
-            "index": "pypi",
-            "version": "==0.1.1rc1"
-        },
         "invoke": {
             "hashes": [
                 "sha256:87b3ef9d72a1667e104f89b159eaf8a514dbf2f3576885b2bbdefe74c3fb2132",
@@ -204,10 +196,10 @@
         },
         "jinja2": {
             "hashes": [
-                "sha256:c10142f819c2d22bdcd17548c46fa9b77cf4fda45097854c689666bf425e7484",
-                "sha256:c922560ac46888d47384de1dbdc3daaa2ea993af4b26a436dec31fa2c19ec668"
+                "sha256:93187ffbc7808079673ef52771baa950426fd664d3aad1d0fa3e95644360e250",
+                "sha256:b0eaf100007721b5c16c1fc1eecb87409464edc10469ddc9a22a27a99123be49"
             ],
-            "version": "==3.0.0a1"
+            "version": "==2.11.1"
         },
         "jsonschema": {
             "hashes": [
@@ -245,13 +237,6 @@
                 "sha256:a4ee613c060fe5697d913416fc9d553599c05e4492d58fac1192c9a6844abb21"
             ],
             "version": "==4.6.3"
-        },
-        "jupyterlab-pygments": {
-            "hashes": [
-                "sha256:31deda75bd11b014190764c79f6199aa04ef2d4cf35c1c94270fc2e19c23a5c5",
-                "sha256:cc15f2a9850899d108a3c22743a86edcd3b42791a6c88b6e5b558d021d14d065"
-            ],
-            "version": "==0.1.0"
         },
         "kiwisolver": {
             "hashes": [
@@ -369,10 +354,10 @@
         },
         "nbconvert": {
             "hashes": [
-                "sha256:944a5fbe6c4609d74e7f331bfa957c8eff2d53904f7c40f053a44bfb4164b718",
-                "sha256:c86da6adc412df9ad2726fe438589e4495c7835792d6d84f888178682f5d5bcf"
+                "sha256:21fb48e700b43e82ba0e3142421a659d7739b65568cc832a13976a77be16b523",
+                "sha256:f0d6ec03875f96df45aa13e21fd9b8450c42d7e1830418cccc008c0df725fcee"
             ],
-            "version": "==6.0.0a0"
+            "version": "==5.6.1"
         },
         "nbformat": {
             "hashes": [
@@ -679,6 +664,14 @@
                 "sha256:d023ee369ddd2763310e4c3eae1ff649689440d4ae59d7485eb4cfbbe3e359f7"
             ],
             "version": "==4.3.3"
+        },
+        "vega": {
+            "hashes": [
+                "sha256:2e80a000c35e8c28f3853344f11129d55fc1316e8bd966af363533ec8fd174a0",
+                "sha256:985a12c87c81ca0d7775fe4c97442d763ae22c9b6f87925ec628c8e928b89187"
+            ],
+            "index": "pypi",
+            "version": "==3.1.0"
         },
         "vega-datasets": {
             "hashes": [
